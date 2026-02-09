@@ -162,7 +162,7 @@
     }
   },
   "tile_store": {
-    "name": "file",
-    "root_dir": "tiles"
+    "class_path": "rslearn.tile_stores.default.DefaultTileStore",
+    "path_suffix": "tiles"
   }
 }
