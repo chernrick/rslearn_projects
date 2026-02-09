@@ -33,7 +33,7 @@
         }
       ],
       "data_source": {
-        "item_specs": "PLACEHOLDER",
+        "raster_item_specs": "PLACEHOLDER",
         "name": "rslearn.data_sources.local_files.LocalFiles",
         "src_dir": "PLACEHOLDER"
       },
@@ -52,7 +52,7 @@
         }
       ],
       "data_source": {
-        "item_specs": "PLACEHOLDER",
+        "raster_item_specs": "PLACEHOLDER",
         "name": "rslearn.data_sources.local_files.LocalFiles",
         "query_config": {
           "max_matches": 2

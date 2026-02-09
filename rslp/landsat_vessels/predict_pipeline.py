@@ -335,7 +335,7 @@ def setup_dataset(
             )
             item_spec["fnames"].append(image_path)
             item_spec["bands"].append([band])
-        cfg["layers"][LANDSAT_LAYER_NAME]["data_source"]["item_specs"] = [item_spec]
+        cfg["layers"][LANDSAT_LAYER_NAME]["data_source"]["raster_item_specs"] = [item_spec]
 
         with (ds_path / "config.json").open("w") as f:
             json.dump(cfg, f)
